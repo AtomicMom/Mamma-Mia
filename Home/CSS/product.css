@@ -37,6 +37,18 @@
   padding-left: 15px;
   
 }
+@media screen and (max-width: 600px)
+{
+  .mobile-hide {
+    display: hidden;
+    visibility: hidden;
+    clear: both;
+    display: none;
+
+  }
+}
+
+
 
 .masthead-brand {
   margin-bottom: 0;
