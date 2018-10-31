@@ -89,6 +89,14 @@ body {
   }
 }
 
+/* hiding any aspects you dont want to show on mobile */
+@media screen and (max-width: 640px)
+{
+  .masthead{display: none}
+  .alert-banner {display: none}
+  .footer-tag {display:none;}
+}
+
 
 /*
  * Cover

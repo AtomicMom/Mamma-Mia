@@ -35,18 +35,7 @@
   background-color: rgb(255,255,255, .125);
   padding-right: 15px;
   padding-left: 15px;
-  
-}
-@media screen and (max-width: 600px)
-{
-  .mobile-hide {
-    display: hidden;
-    visibility: hidden;
-    clear: both;
-    display: none;
-
-  }
-}
+}  
 
 
 
@@ -83,6 +72,11 @@
   .nav-masthead {
     float: right;
   }
+}
+
+@media screen and (max-width: 640px)
+{
+.masthead {display:none;}
 }
 
 /*
