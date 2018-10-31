@@ -89,6 +89,20 @@ body {
     float: right;
   }
 }
+.mobile-header
+{
+width: 100%; 
+}
+
+@media screen and (min-width: 461px)
+{
+.mobile-header {display: none;}
+} 
+
+@media screen and (max-width: 460px)
+{
+  .masthead {display: none;}
+}
 
 
 

@@ -79,6 +79,11 @@
 .masthead {display:none;}
 }
 
+    @media screen and (min-width: 641px)
+    {
+  .mobile-container {display: none;}
+    }
+
 /*
  *background stuff
  */
