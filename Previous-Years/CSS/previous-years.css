@@ -43,9 +43,20 @@ h5{
   color: white;
 }
 
+.nav-colors{
+  background-color: #31A9B8;
+}
+
 h1{
   color: white;
-  
+}
+
+.nav-color{
+  color: white;
+}
+
+nav{
+  color: white;
 }
 /*
  * Header

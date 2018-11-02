@@ -19,6 +19,9 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+.nav-colors{
+  background-color: #31A9B8;
+}
 
 /*
  * Base structure

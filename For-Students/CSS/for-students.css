@@ -15,13 +15,19 @@ a:hover {
   position: relative;
 }
 
+.nav-colors{
+  background-color: #31A9B8;
+}
+.nav-text{
+  color: white;
+}
 .iframe-container iframe {
    border: 0;
    height: 50%;
    left: 0;
    position: absolute;
    top: 0;
-   width: 100%;
+   width: 50%;
 }
 
 h5{
@@ -30,7 +36,7 @@ h5{
 
 /* 4x3 Aspect Ratio */
 .iframe-container-4x3 {
-  padding-top: 75%;
+  padding-top: 50%;
 }
 
 /* Custom default button */
