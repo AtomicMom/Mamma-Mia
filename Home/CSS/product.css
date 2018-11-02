@@ -43,10 +43,12 @@
   padding-left: 15px;
 }  
 
+.text-colors{
+ color: white;
+}
 
-
-.masthead-brand {
-  margin-bottom: 0;
+h5{
+  color: white;
 }
 
 .nav-masthead .nav-link {

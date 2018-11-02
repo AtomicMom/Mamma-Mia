@@ -29,7 +29,10 @@ body {
   height: 100%;
   
 }
-
+ 
+h5{
+  color:white;
+}
 
 .cover-container {
   max-width: 42em;
