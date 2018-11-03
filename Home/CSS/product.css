@@ -60,6 +60,10 @@ h5{
   }
 }
 
+.border-text{
+  text-shadow: -1px 0 white, 0 1px blue, 1px 0 white, 0 -1px white;
+  font-weight: bold;
+}
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
