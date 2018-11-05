@@ -52,12 +52,24 @@ h5{
 }
 
 .nav-colors{
-  background-color: #31A9B8;
+  background-color: #ff7faa;
 }
 @media screen and (min-width: 1px){
   .sponsor-tag{
     display: none;
   }
+}
+
+.item-one{
+  float:left;
+  clear: left;
+  position: center;
+}
+
+.item-two{
+float:left;
+clear:left;
+
 }
 
 .border-text{
@@ -185,14 +197,14 @@ body, html {
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 35%;
   width: 100%;
   text-align: center;
   color: #000;
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color:#d47fff;
   color: #fff;
   padding: 18px;
   font-size: 25px;
