@@ -52,7 +52,7 @@ h5{
 }
 
 .nav-colors{
-  background-color: #ff7faa;
+  background-color: #e5e9f5;
 }
 @media screen and (min-width: 1px){
   .sponsor-tag{
@@ -204,11 +204,13 @@ body, html {
 }
 
 .caption span.border {
-  background-color:#d47fff;
-  color: #fff;
+  background-image: url(../images/blue.jpg);
+  background-size: cover;
+  color: black;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  font-weight: bold
 }
 
 h3 {
@@ -223,4 +225,41 @@ h3 {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+.outline-1{
+border-color: #aaff7f;
+}
+
+.outline-1:hover{
+background-color: #aaff7f;
+}
+
+.outline-2{
+border-color: #7fffd4;
+}
+
+.outline-2:hover{
+background-color: #7fffd4;
+}
+
+.outline-3{
+border-color: #d47fff;
+}
+
+.outline-3:hover{
+background-color: #d47fff;
+}
+
+.outline-4{
+border-color: #ff7faa;
+}
+
+.outline-4:hover{
+background-color: #ff7faa;
+}
+
+.bg-1{
+  background-color: #6e6e6e;
+  color: white;
 }
