@@ -57,6 +57,8 @@ h5{
 @media screen and (min-width: 1px){
   .sponsor-tag{
     display: none;
+    
+    } 
   }
 }
 
@@ -189,8 +191,9 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("../images/compressed.jpg");
+  background-image: url("../images/mammamia-compressed.jpg");
   min-height: 100%;
+  padding-top: 75px;
 }
 
 
@@ -204,8 +207,6 @@ body, html {
 }
 
 .caption span.border {
-  background-image: url(../images/blue.jpg);
-  background-size: cover;
   color: black;
   padding: 18px;
   font-size: 25px;
@@ -263,3 +264,8 @@ background-color: #ff7faa;
   background-color: #6e6e6e;
   color: white;
 }
+
+.padding-top{
+  padding-top: 75px;
+}
+
