@@ -193,9 +193,15 @@ body, html {
 .bgimg-1 {
   background-image: url("../images/mammamia-compressed.jpg");
   min-height: 100%;
-  padding-top: 75px;
+
 }
 
+@media screen and (max-width: 500px)
+{
+  .bgimg-1{
+    display:none;
+  }
+}
 
 .caption {
   position: absolute;
