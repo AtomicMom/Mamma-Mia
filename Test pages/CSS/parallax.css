@@ -143,11 +143,11 @@ clear:left;
 }
 
 .third-tile{
-  background-color: #ff0000
+  background-color: #ff0000;
 }
 
 .fourth-tile{
-  background-color: #ff00ff
+  background-color: #ff00ff;
 }
 
 .px-3{
@@ -155,7 +155,7 @@ clear:left;
 }
 
 .button{
-  background-color: white
+  background-color: white;
 }
 /*
  * Extra utilities
@@ -236,6 +236,8 @@ h3 {
 
 .outline-1{
 border-color: #aaff7f;
+border-radius: 1px 1px 1px 1px;
+color: white;
 }
 
 .outline-1:hover{
@@ -244,6 +246,7 @@ background-color: #aaff7f;
 
 .outline-2{
 border-color: #7fffd4;
+color: white;
 }
 
 .outline-2:hover{
@@ -252,6 +255,7 @@ background-color: #7fffd4;
 
 .outline-3{
 border-color: #d47fff;
+color: white;
 }
 
 .outline-3:hover{
@@ -260,6 +264,7 @@ background-color: #d47fff;
 
 .outline-4{
 border-color: #ff7faa;
+color: white;
 }
 
 .outline-4:hover{
@@ -268,10 +273,14 @@ background-color: #ff7faa;
 
 .bg-1{
   background-color: #6e6e6e;
-  color: white;
-}
+  }
 
 .padding-top{
   padding-top: 75px;
 }
 
+html, body { height: 100%; padding: 5px; margin: 0; }
+a { width: 50%; height: 46.5%; float: left; }
+
+.div-header{
+}
