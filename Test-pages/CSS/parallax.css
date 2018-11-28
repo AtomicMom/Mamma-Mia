@@ -235,40 +235,40 @@ h3 {
 }
 
 .outline-1{
-border-color: #aaff7f;
+border-color: #FF9E84;
 border-radius: 1px 1px 1px 1px;
 color: white;
 }
 
 .outline-1:hover{
-background-color: #aaff7f;
+background-color: #FF9E84;
 }
 
 .outline-2{
-border-color: #7fffd4;
+border-color: #C4FD83;
 color: white;
 }
 
 .outline-2:hover{
-background-color: #7fffd4;
+background-color: #C4FD83;
 }
 
 .outline-3{
-border-color: #d47fff;
+border-color: #81FAB6;
 color: white;
 }
 
 .outline-3:hover{
-background-color: #d47fff;
+background-color: #81FAB6;
 }
 
 .outline-4{
-border-color: #ff7faa;
+border-color: #FD83B2;
 color: white;
 }
 
 .outline-4:hover{
-background-color: #ff7faa;
+background-color: #FD83B2;
 }
 
 .bg-1{
