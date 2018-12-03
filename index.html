@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../favicon/favicon.png">
-    
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113354439-1"></script>
 <script>
@@ -25,73 +25,101 @@
     <!-- Custom styles for this template -->
     <link href="home/css/product.css" rel="stylesheet">
   </head>
-  <body class="bg-white"> 
+  <body class="bg-white">
 
-
+<!-- header -->
 <nav class="navbar sticky-top navbar-expand-lg navbar-light nav-colors">
-   <a class="navbar-brand" href="#">
-    <img src="home/images/favicon.png" width="30" height="30" class="d-inline-block align-top">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav text">
-      <a class="nav-item nav-link" href="#">Home</a>
-      <a class="nav-item nav-link active" href="tickets">Tickets</a>
-      <a class="nav-item nav-link active" href="for-students">Information</a>
-      <a class="nav-item nav-link active" href="Previous-years">Previous Years</a>
-    </div>
-  </div>
+<a class="navbar-brand" href="#">
+<img src="home/images/favicon.png" width="30" height="30" class="d-inline-block align-top">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<div class="navbar-nav text">
+<a class="nav-item nav-link " href="#">Home</a>
+<a class="nav-item nav-link active" href="tickets">Tickets</a>
+<a class="nav-item nav-link active" href="for-students">Information</a>
+<a class="nav-item nav-link active" href="Previous-years">Previous Years</a>
+</div>
+</div>
 </nav>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 
 <div class="bgimg-1 padding-top">
 </div>
 
 
- 
+
  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 alert-banner">
+
 	<h1 class="bg-danger text-white mr-md-3 px-md-5 text-center overflow-hidden">Applications for crew and production staff are up on the information page</h1>
 </div>
 
-<div class="bg-dark">
+<div class="bg-white">
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
 <!-- First box-->
-       <div class="bg-1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+       <a class="box-1 btn mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" href="tickets">
         <div class="my-3 p-3">
           <h2 class="display-5">Tickets</h2>
           <p class="lead">Buy tickets here.</p>
         </div>
+        <!--
         <a class="text-center button-slider btn outline-1 shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;" href="tickets">
         </a>
-      </div>
+      -->
+      </a>
 
 <!-- second box -->
-      <div class="bg-1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <a class="box-2 btn mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" href="for-students">
         <div class="my-3 p-3">
           <h2 class="display-5">Information</h2>
           <p class="lead">All forms, docuemnts, and important information pertaining to the show will be here</p>
         </div>
+        <!--
         <a class="text-center button-slider btn outline-2 shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;" href="for-students">
         </a>
-      </div>
+      -->
+      </a>
+
+<!-- third box-->
+          <div class="box-3 btn mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" href="previous-years">
+              <div class="my-3 p-3">
+                <h2 class="display-5">Previous Years (Coming Soon)</h2>
+                <p class="lead">Take a look a past years' shows</p>
+              </div>
+              <!--
+              <a class="btn outline-4 shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;" href="previous-years">
+              </a>
+            -->
+            </div>
 
     </div>
-
+<!--
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
 
-<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden sponsor-tag">
+<a class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden sponsor-tag">
         <div class="my-3 p-3">
           <h2 class="display-5">Sponshorship</h2>
           <p class="lead">Put a sponsor here</p>
         </div>
         <a class="text-center button-slider btn btn-outline-danger shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;" href="#">
         </a>
-      </div>
+      </a>
 
 
-<!-- third box -->
+
       <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden sponsor-tag">
         <div class="my-3 p-3">
           <h2 class="display-5">Sponshorship</h2>
@@ -101,8 +129,8 @@
         </a>
       </div>
 
-      <!-- fourth box -->
-      
+
+
 <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden sponsor-tag">
         <div class="my-3 p-3">
           <h2 class="display-5">Sponshorship</h2>
@@ -112,7 +140,7 @@
         </a>
       </div>
 
-      
+
 
       <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden sponsor-tag">
         <div class="my-3 p-3">
@@ -126,28 +154,19 @@
     </div>
 
      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-<!--
+
       <div class="bg-1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 py-3">
           <h2 class="display-5">Contact</h2>
           <p class="lead">General contact information if you have any questions</p>
         </div>
-        <a class="btn outline-3 shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;" href="contact"> 
+        <a class="btn outline-3 shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;" href="contact">
         </a>
       </div>
 -->
 
-<!-- third box -->
+<!-- sponsorship box-->
 
-    <div class="bg-1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Previous Years (Coming Soon)</h2>
-          <p class="lead">Take a look a past years' shows</p>
-        </div>
-        <a class="btn outline-4 shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;" href="previous-years">
-        </a>
-      </div>
-    </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
 <div class="bg-1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden sponsor-ta">
@@ -157,12 +176,14 @@
         </div>
       </div>
     </div>
-    <footer class="container py-5 footer-tag text-center">
+  </div>
+
+    <footer class="container py-5 footer-tag text-center ">
       <div class="row">
         <div class="col-6 col-md text-colors">
           <h5>Website by Billy Begos</h5>
         </div>
-       
+
     </footer>
 </div>
 
