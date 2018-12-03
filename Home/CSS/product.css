@@ -387,7 +387,7 @@ a {
   color: #999;
 }
 
-@media up-bump {
+@keyframes up-bump {
   0% { padding-top: 2em; }
   25% {padding-top: 1.75em}
   50% { padding-top: 1.5em; }
