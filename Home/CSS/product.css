@@ -41,7 +41,7 @@
   background-color: rgb(255,255,255, .125);
   padding-right: 15px;
   padding-left: 15px;
-}  
+}
 
 .text-colors{
  color: white;
@@ -57,8 +57,8 @@ h5{
 @media screen and (min-width: 1px){
   .sponsor-tag{
     display: none;
-    
-    } 
+
+    }
   }
 }
 
@@ -274,4 +274,3 @@ background-color: #ff7faa;
 .padding-top{
   padding-top: 75px;
 }
-
