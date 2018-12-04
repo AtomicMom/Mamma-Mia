@@ -331,18 +331,6 @@ background-color: #ff7faa;
 }
 
 
-
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Merriweather', serif;
-  padding: 20px;
-}
-
 a {
   color: #f06d06;
   text-decoration: none;
@@ -362,7 +350,9 @@ a {
   );
   background-size: 100% 202%;
   transition: all 0.2s ease;
-  animation: down-bump 0.4s ease;
+  animation: up-bump 0.4s ease;
+  text-align: center;
+
 }
 .box-1 h2 {
   font-weight: 400;
@@ -386,15 +376,19 @@ a {
 .box-1:hover h3 {
   color: #999;
 }
-
+/*
 @keyframes up-bump {
   0% { padding-top: 2em; }
-  25% {padding-top: 1.75em}
   50% { padding-top: 1.5em; }
-  75% {padding-top: 1.75em}
   100% { padding-top: 2em; }
 }
-
+*/
+.box-1:hover {
+  animation: up-bump 0.4s ease;
+}
+.box-1:hover p{
+  color:white;
+}
 
 
 .box-2 {
@@ -411,16 +405,10 @@ a {
   );
   background-size: 100% 202%;
   transition: all 0.2s ease;
-  animation: down-bump 0.4s ease;
+  animation: down-bump 1s ease;
+  text
 }
-.box-2 h2 {
-  font-weight: 400;
-  letter-spacing: -1.5px;
-  line-height: 1.2;
-}
-.box-2 h3 {
-  font: 0.8em "Lucida Grande", serif;
-}
+
 
 .box-2:hover {
   background-position: 100% 100%;
@@ -430,10 +418,13 @@ a {
   color: #48ad26;
 }
 .box-2:hover h2 span {
-  color: white;
+  color: #48ad26;
 }
 .box-2:hover h3 {
-  color: #999;
+  color: white;
+}
+.box-2:hover p{
+  color:white
 }
 
 
@@ -474,4 +465,7 @@ a {
 }
 .box-3:hover h3 {
   color: #999;
+}
+.box-3:hover p{
+  color:white;
 }
