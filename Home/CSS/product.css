@@ -87,7 +87,7 @@
  width: 100%;
  }
 
- @media screen and (min-width: 461px)
+ @media screen and (min-width: 460px)
  {
  .mobile-header {display: none;}
  }
@@ -220,12 +220,7 @@ clear:left;
   -ms-flex: 1;
   flex: 1;
 }
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
+
 
 .overflow-hidden { overflow: hidden; }
 
@@ -243,8 +238,8 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 .bgimg-1 {
   background-image: url("../images/mammamia-compressed.jpg");
   min-height: 100%;
@@ -275,12 +270,6 @@ body, html {
   font-weight: bold
 }
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 800px) {
@@ -404,7 +393,6 @@ a {
   background-size: 100% 202%;
   transition: all 0.2s ease;
   animation: down-bump 1s ease;
-  text
 }
 
 
@@ -441,6 +429,7 @@ a {
   background-size: 100% 202%;
   transition: all 0.2s ease;
   animation: down-bump 0.4s ease;
+  display:inline-block;
 }
 .box-3 h2 {
   font-weight: 400;
@@ -451,7 +440,9 @@ a {
 .box-3:hover h3{
   color:white
 }
-
+body{
+  overflow-x: hidden;
+}
 .box-3:hover {
   background-position: 100% 100%;
   animation: up-bump 0.4s ease;
